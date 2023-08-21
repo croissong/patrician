@@ -1,0 +1,22 @@
+.index {
+  width: 10rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10rem auto;
+}
+
+img {
+  width: 8rem;
+}
+
+.post-line {
+  border-top: 0.4rem solid #333;
+  display: block;
+  margin: 0.5rem auto 3rem;
+  width: 4rem;
+}
+
+.link {
+  font-size: 1.5rem;
+}
