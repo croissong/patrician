@@ -1,0 +1,3 @@
+
+update:
+  pnpm update -L
