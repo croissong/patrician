@@ -13,10 +13,14 @@ img {
 .post-line {
   border-top: 0.4rem solid #333;
   display: block;
-  margin: 0.5rem auto 3rem;
+  margin: 0.5rem auto 1rem;
   width: 4rem;
 }
 
-.link {
+.links {
   font-size: 1.5rem;
+
+  a {
+    padding: 0 0.3rem;
+  }
 }

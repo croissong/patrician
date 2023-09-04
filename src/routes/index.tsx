@@ -4,7 +4,7 @@ import styles from "./index.css?inline";
 
 import imgUrl from "../../public/patrizier_hex.png";
 
-import { LuGithub } from "@qwikest/icons/lucide";
+import { SiGithub, SiKeybase } from "@qwikest/icons/simpleicons";
 
 export default component$(() => {
   useStylesScoped$(styles);
@@ -12,8 +12,13 @@ export default component$(() => {
     <div class="index">
       <img src={imgUrl}></img>
       <div class="post-line"></div>
-      <div class="link">
-        <LuGithub /> <a href="https://github.com/Croissong">Github</a>
+      <div class="links">
+        <a href="https://github.com/Croissong">
+          <SiGithub />
+        </a>
+        <a href="https://keybase.io/croissong">
+          <SiKeybase />
+        </a>
       </div>
     </div>
   );
