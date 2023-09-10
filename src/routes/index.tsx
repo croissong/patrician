@@ -22,10 +22,11 @@ export default component$(() => {
   });
 
   return (
-    <div class="index">
+    <main class="index">
       <img
         ref={imgRef}
         src={img.src}
+        alt="Patrician logo"
         style={
           loaded.value
             ? {}
@@ -46,7 +47,7 @@ export default component$(() => {
           <SiKeybase />
         </a>
       </div>
-    </div>
+    </main>
   );
 });
 
