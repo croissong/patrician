@@ -2,7 +2,7 @@ import { component$, useStylesScoped$ } from "@builder.io/qwik";
 import type { DocumentHead } from "@builder.io/qwik-city";
 import styles from "./index.css?inline";
 
-import Image from "/src/images/patrizier_hex.png?format=avif&jsx";
+import Image from "/src/media/images/patrizier_hex.png?format=avif&jsx";
 
 import { SiGithub, SiKeybase } from "@qwikest/icons/simpleicons";
 

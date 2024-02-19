@@ -1,10 +1,10 @@
 start:
-  pnpm start
+  bun start
 
 buildNServe:
-  pnpm build
+  bun build
   wrangler pages dev ./dist
 
 
 update:
-  pnpm update -L
+  bun update -f
