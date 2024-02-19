@@ -14,6 +14,7 @@ export default component$(() => {
       <Image
         decoding="sync"
         loading="eager"
+        alt="Patrician logo"
         style={{
           backgroundImage: `url("${lqip}")`,
         }}

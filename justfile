@@ -2,8 +2,8 @@ start:
   bun start
 
 buildNServe:
-  bun build
-  bun run server
+  bun run build
+  bun run serve
 
 
 update:
