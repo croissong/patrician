@@ -1,0 +1,12 @@
+* lqip
+low quality placeholder
+#+begin_src sh
+, cwebp -resize 128 128 -m 6 -q 0 original/patrizier_hex.png -o patrizier-lqip.webp
+#+end_src
+
+
+* no alpha
+replace alpha with white, to avoid background image affecting main img (best trade-off for now...)
+#+begin_src sh
+convert original/patrizier_hex.png -background white -alpha remove -alpha off patrizier.png
+#+end_src
