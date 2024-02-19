@@ -3,7 +3,7 @@ start:
 
 buildNServe:
   bun build
-  wrangler pages dev ./dist
+  bun run server
 
 
 update:

@@ -8,10 +8,14 @@
     pkgs = nixpkgs.legacyPackages.${system};
   in {
     devShells.${system}.default = pkgs.mkShell {
-      packages = with pkgs.nodePackages; [
-        pnpm
-        wrangler
+      packages = with pkgs; [
+        bun
+        nodejs_latest
       ];
+
+      env = {
+        LD_LIBRARY_PATH = "${pkgs.stdenv.cc.cc.lib}/lib";
+      };
     };
   };
 }
