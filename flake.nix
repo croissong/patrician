@@ -11,6 +11,7 @@
       packages = with pkgs; [
         bun
         nodejs_latest
+        nodePackages.wrangler
       ];
 
       env = {

@@ -1,0 +1,1 @@
+- [[https://github.com/QwikDev/qwik/issues/6115][[✨] Update your template to include eslint.config.js by default · Issue #6115 · QwikDev/qwik · GitHub]]
