@@ -1,9 +1,14 @@
+* avif
+#+begin_src shell
+, avifenc  --min 20 --max 30 --speed 0  --progressive src/media/images/patrizier.png src/media/images/patrizier.avif
+#+end_src
+
+
 * lqip
 low quality placeholder
 #+begin_src sh
 , cwebp -resize 128 128 -m 6 -q 0 original/patrizier_hex.png -o patrizier-lqip.webp
 #+end_src
-
 
 * no alpha
 replace alpha with white, to avoid background image affecting main img (best trade-off for now...)
