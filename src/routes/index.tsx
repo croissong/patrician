@@ -2,7 +2,7 @@ import { component$, useStylesScoped$ } from "@builder.io/qwik";
 import type { DocumentHead } from "@builder.io/qwik-city";
 import styles from "./index.css?inline";
 
-import Image from "/src/media/images/patrizier.avif?jsx";
+import imageUrl from "/src/media/images/patrizier.avif";
 
 import { SiGithub, SiKeybase } from "@qwikest/icons/simpleicons";
 
@@ -10,7 +10,9 @@ export default component$(() => {
   useStylesScoped$(styles);
   return (
     <main class="index">
-      <Image decoding="async" loading="eager" alt="Patrician logo" />
+      <a href="/images/patrizier.png" title="Patrician logo HQ">
+        <img src={imageUrl} decoding="async" loading="eager" alt="Patrician logo" />
+      </a>
       <div class="links">
         <a href="https://github.com/Croissong">
           <SiGithub />
