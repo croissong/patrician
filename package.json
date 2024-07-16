@@ -25,8 +25,8 @@
     "qwik": "qwik"
   },
   "devDependencies": {
-    "@builder.io/qwik": "1.7.0",
-    "@builder.io/qwik-city": "1.7.0",
+    "@builder.io/qwik": "https://pkg.pr.new/@builder.io/qwik@18b004d",
+    "@builder.io/qwik-city": "https://pkg.pr.new/@builder.io/qwik-city@18b004d",
     "@qwikest/icons": "0.0.13",
     "@types/eslint": "8.56.10",
     "eslint": "8.57.0",
@@ -40,5 +40,8 @@
     "vite": "5.3.3",
     "vite-tsconfig-paths": "4.3.2",
     "wrangler": "^3.63.2"
+  },
+  "overrides": {
+    "vite-imagetools": "^7.0.4"
   }
 }
