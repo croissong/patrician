@@ -25,21 +25,21 @@
     "qwik": "qwik"
   },
   "devDependencies": {
-    "@builder.io/qwik": "https://pkg.pr.new/@builder.io/qwik@18b004d",
-    "@builder.io/qwik-city": "https://pkg.pr.new/@builder.io/qwik-city@18b004d",
+    "@builder.io/qwik": "1.7.3",
+    "@builder.io/qwik-city": "1.7.3",
     "@qwikest/icons": "0.0.13",
     "@types/eslint": "8.56.10",
     "eslint": "8.57.0",
-    "@types/node": "20.14.10",
     "@typescript-eslint/eslint-plugin": "7.16.0",
     "@typescript-eslint/parser": "7.16.0",
-    "eslint-plugin-qwik": "1.7.0",
-    "prettier": "3.3.2",
-    "typescript": "5.5.3",
-    "undici": "6.19.2",
-    "vite": "5.3.3",
+    "@types/node": "22.0.2",
+    "eslint-plugin-qwik": "1.7.3",
+    "prettier": "3.3.3",
+    "typescript": "5.5.4",
+    "undici": "6.19.5",
+    "vite": "5.3.5",
     "vite-tsconfig-paths": "4.3.2",
-    "wrangler": "^3.63.2"
+    "wrangler": "^3.67.1"
   },
   "overrides": {
     "vite-imagetools": "^7.0.4"
