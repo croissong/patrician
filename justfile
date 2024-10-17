@@ -7,6 +7,7 @@ buildNServe:
 
 
 update:
+  nix flake update
   bun update -f --latest
   bun pm untrusted
 
