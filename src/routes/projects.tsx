@@ -18,8 +18,8 @@ export default component$(() => {
           no place like $HOME
         </li>
         <li>
-          <a href="https://github.com/croissong/system">nixos-config</a> - I use
-          NixOS btw
+          <a href="https://github.com/croissong/system">system</a> - I use NixOS
+          btw
         </li>
         <li>
           <a href="https://github.com/croissong/emacs">emacs</a> &gt; Vim
