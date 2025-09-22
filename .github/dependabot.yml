@@ -7,3 +7,7 @@ updates:
       interval: "weekly"
     commit-message:
       prefix: "chore(deps)"
+    groups:
+      all-deps:
+        patterns:
+          - "*"
