@@ -29,9 +29,9 @@
     "@builder.io/qwik": "1.17.1",
     "@builder.io/qwik-city": "1.17.1",
     "@qwikest/icons": "0.0.13",
-    "@types/node": "24.9.1",
+    "@types/node": "24.10.0",
     "autoprefixer": "^10.4.14",
-    "eslint": "9.38.0",
+    "eslint": "9.39.0",
     "eslint-plugin-qwik": "1.17.1",
     "postcss": "^8.4.31",
     "postcss-normalize": "^13.0.1",
@@ -41,10 +41,10 @@
     "undici": "7.16.0",
     "vite": "7.1.12",
     "vite-tsconfig-paths": "5.1.4",
-    "wrangler": "^4.45.0"
+    "wrangler": "^4.45.3"
   },
   "dependencies": {
-    "@eslint/js": "^9.38.0",
+    "@eslint/js": "^9.39.0",
     "typescript-eslint": "^8.46.2"
   }
 }
