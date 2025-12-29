@@ -35,7 +35,7 @@
     "eslint-plugin-qwik": "1.18.0",
     "postcss": "^8.4.31",
     "postcss-normalize": "^13.0.1",
-    "postcss-preset-env": "^10.5.0",
+    "postcss-preset-env": "^10.6.0",
     "prettier": "3.7.4",
     "typescript": "5.9.3",
     "undici": "7.16.0",
@@ -45,6 +45,6 @@
   },
   "dependencies": {
     "@eslint/js": "^9.39.2",
-    "typescript-eslint": "^8.50.0"
+    "typescript-eslint": "^8.50.1"
   }
 }
