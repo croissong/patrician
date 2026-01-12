@@ -29,22 +29,22 @@
     "@builder.io/qwik": "1.18.0",
     "@builder.io/qwik-city": "1.18.0",
     "@qwikest/icons": "0.0.13",
-    "@types/node": "25.0.3",
+    "@types/node": "25.0.6",
     "autoprefixer": "^10.4.23",
     "eslint": "9.39.2",
     "eslint-plugin-qwik": "1.18.0",
     "postcss": "^8.4.31",
     "postcss-normalize": "^13.0.1",
-    "postcss-preset-env": "^10.6.0",
+    "postcss-preset-env": "^10.6.1",
     "prettier": "3.7.4",
     "typescript": "5.9.3",
-    "undici": "7.16.0",
-    "vite": "7.3.0",
-    "vite-tsconfig-paths": "6.0.3",
-    "wrangler": "^4.56.0"
+    "undici": "7.18.2",
+    "vite": "7.3.1",
+    "vite-tsconfig-paths": "6.0.4",
+    "wrangler": "^4.58.0"
   },
   "dependencies": {
     "@eslint/js": "^9.39.2",
-    "typescript-eslint": "^8.51.0"
+    "typescript-eslint": "^8.52.0"
   }
 }
