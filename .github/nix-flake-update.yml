@@ -1,0 +1,52 @@
+name: Nix Flake Update
+on:
+  schedule:
+    - cron: '0 0 * 1-12 1' # monthly
+  workflow_dispatch: # allow manual dispatch for testing
+
+jobs:
+  flake-update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+      - name: Set up Nix
+        uses: cachix/install-nix-action@v31
+
+      - name: Run `nix flake update`
+        run: nix flake update
+
+      - name: Check for changes
+        run: |
+          if git diff --quiet; then
+            echo "No changes from `nix flake update`."
+            echo "skip=true" >> $GITHUB_ENV
+          else
+            echo "Changes detected."
+          fi
+
+      - name: Create or update PR
+        id: cpr
+        if: env.skip != 'true'
+        uses: peter-evans/create-pull-request@v7
+        with:
+          author: "github-actions[bot] <github-actions[bot]@users.noreply.github.com>"
+          base: main
+          body: "chore(nix): flake update"
+          branch: automatic-flake-update
+          commit-message: "chore(nix): flake update"
+          delete-branch: false
+          labels: |
+            dependencies
+          title: "flake: automatic update"
+          token: '${{ secrets.GH_TOKEN }}'
+      - name: Mark PR as auto-merge
+        if: env.skip != 'true'
+        uses: peter-evans/enable-pull-request-automerge@v3
+        with:
+          merge-method: 'rebase'
+          token: '${{ secrets.GH_TOKEN }}'
+          pull-request-number: '${{ steps.cpr.outputs.pull-request-number }}'
