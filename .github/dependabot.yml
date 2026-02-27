@@ -11,3 +11,9 @@ updates:
       all-deps:
         patterns:
           - "*"
+    ignore:
+      # eslint-plugin-qwik requires v9
+      - dependency-name: "eslint"
+        update-types: ["version-update:semver-major"]
+      - dependency-name: "@eslint/js"
+        update-types: ["version-update:semver-major"]
