@@ -37,14 +37,14 @@
     "postcss-normalize": "^13.0.1",
     "postcss-preset-env": "^11.2.0",
     "prettier": "3.8.1",
-    "typescript": "5.9.3",
-    "undici": "7.24.4",
-    "vite": "8.0.1",
+    "typescript": "6.0.2",
+    "undici": "7.24.6",
+    "vite": "8.0.3",
     "vite-tsconfig-paths": "6.1.1",
-    "wrangler": "^4.75.0"
+    "wrangler": "^4.77.0"
   },
   "dependencies": {
     "@eslint/js": "^9.39.4",
-    "typescript-eslint": "^8.57.1"
+    "typescript-eslint": "^8.57.2"
   }
 }
