@@ -41,7 +41,7 @@
     "vite": "8.0.16",
     "undici": "8.10.0",
     "vite-tsconfig-paths": "6.1.1",
-    "wrangler": "^4.123.0"
+    "wrangler": "^4.101.0"
   },
   "dependencies": {
     "@eslint/js": "^10.0.1",

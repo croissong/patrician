@@ -1,9 +1,9 @@
 start:
-  bun start -- --host
+  bun start --host
 
 buildNServe:
   bun run build
-  wrangler pages dev ./dist
+  bun run serve
 
 
 update:
